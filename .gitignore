@@ -3,3 +3,4 @@ DjangoStimulus/__pycache__
 blogs/__pycache__
 blogs/migrations/__pycache__
 static/node_modules
+static/index.js
