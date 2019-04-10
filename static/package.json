@@ -2,6 +2,7 @@
     "dependencies": {
         "axios": "^0.18.0",
         "stimulus": "^1.1.1",
-        "webpack": "^4.29.6"
+        "webpack": "^4.29.6",
+        "webpack-cli": "^3.3.0"
     }
 }
