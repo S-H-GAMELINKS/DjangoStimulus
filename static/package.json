@@ -1,4 +1,7 @@
 {
+    "scripts": {
+        "build": "webpack"
+    },
     "dependencies": {
         "axios": "^0.18.0",
         "stimulus": "^1.1.1",
