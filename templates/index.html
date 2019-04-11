@@ -28,5 +28,8 @@
                 </ul>
             </div>
         </nav>
+        {% for post in posts %}
+            <li><a href="/posts/{{ post.id }}/">{{ post.title_text }}</a></li>
+        {% endfor %}
     </body>
 </html>

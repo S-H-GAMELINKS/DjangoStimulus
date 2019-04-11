@@ -9,4 +9,5 @@ class PostViewSet(viewsets.ModelViewSet):
     serializer_class = PostSerializer
 
 def index(request):
-    return render(request, 'index.html')
+    posts = Post.objects.all()
+    return render(request, 'index.html', {'posts': posts})
